@@ -1,0 +1,732 @@
+/* font-family: 'Bree Serif', serif; 
+font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #414042;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#desktop ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    color: #fff;
+    transition: all ease-in-out .25s;
+    text-decoration: none;
+}
+
+#logo-container {
+    width: 30%;
+}
+
+#logo {
+    width: 100%;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #b5b5b5;
+}
+
+nav {
+    width: 100%;
+    background-color: #7f4f98; 
+}
+
+nav li {
+    list-style: none;
+    padding: 3px 30px 3px 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4em;
+}
+
+
+/* ----- Landing CSS ----- */
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.landing h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 8.75em;
+    margin: 0;
+}
+
+.landing h3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.landing h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.landing-img {
+    width: 20%;
+    margin-left: 60px;
+}
+
+/* ----- Black Stripe Section ----- */
+
+#black-stripe {
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#awareness-week {
+    color: #fff;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#awareness-week a {
+    color: #fff;
+    transition: all ease-in-out .25s;   
+    margin: 0;
+}
+
+#awareness-week a:hover {
+    color: #b5b5b5;
+}
+
+#awareness-week h3 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#awareness-week h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 5.9em;
+    margin: 0;
+}
+
+#awareness-week p {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+#did-you-know {
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#did-you-know h2 {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-size: 3.5em;
+    margin: 0;
+    margin-top: 70px;
+}
+
+#did-you-know p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0;
+    width: 60%;
+}
+
+/* ----- striped cards ----- */
+
+#gray-stripe {
+    background-color: rgba(109,110,113,.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.striped-cards {
+    background-image: url(img/aceflag.svg);
+    background-color: none;
+    height: 80vh; 
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px;
+    border: 1px solid #414042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.internal-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #414042;
+    margin: 60px;
+    padding: 15px;
+    width: 70%;
+}
+
+.striped-text p {
+    text-align: center;
+    width: 100%;
+}
+
+.striped-text h2 {
+    font-family: 'Bree Serif', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+/* ----- White Stripe Section ----- */
+
+#white-stripe {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.white-cards {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.white-cards h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    font-style: thin;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-cards a {
+    color: #fff;
+    transition: all ease-in-out .25s;   
+    margin: 0;
+}
+
+.white-cards a:hover {
+    color: #b5b5b5;
+}
+
+.card-text p {
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#black-card {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 75vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#gray-card {
+    background-color: #6d6e71;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 75vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#purple-card {
+    background-color: #7f4f98;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 75vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* ----- PURPLE STRIPE ----- */
+
+#purple-stripe {
+    background-color: rgba(126,79,152,.8);
+    width: 100%;
+}
+
+.video-wrapper {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 55px;
+   height: 0px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 70%;
+    height: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/* ----- FOOTER ----- */
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-content h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+.footer-box {
+    padding: 20px;
+    margin: 0 40px 0 40px;
+}
+
+#resources a {
+    text-decoration: none;
+    color: #414042;
+    text-decoration: underline;
+}
+
+#resources a:hover {
+    color: #b5b5b5;
+}
+
+#resources li {
+    list-style: none;
+    color: #414042;
+    padding: 5px;
+}
+
+#hotlines {
+    margin-right: 30px;
+}
+
+#hotlines h3 {
+    margin: 0;
+}
+
+#hotlines p {
+    margin: 0 0 15px 0;
+}
+
+footer {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- MOBILE MEDIA QUERY ---------- */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    
+    #desktop {
+        display: none;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #logo-container {
+        width: 50%;
+    }
+
+    #mobile ul {
+        background-color: #7f4f98;
+        margin: 10px 0 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #mobile li {
+        padding: 10px;
+
+    }
+
+    nav li {
+        list-style: none;
+        padding: 3px 10px 3px 10px;
+        font-family: 'Bree Serif', serif;
+        font-size: 1.4em;
+    }
+
+    .landing-img {
+        display: none;
+    }
+
+    .landing-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        text-align: left;
+        margin-right: 50px;
+    }
+
+    #white-stripe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .white-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #gray-stripe {
+        background-color: rgba(109,110,113,.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .striped-cards {
+        background-image: url(img/aceflag.svg);
+        background-color: none;
+        width: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        margin: 40px;
+        border: 1px solid #414042;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .internal-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #414042;
+        margin: 60px;
+        padding: 15px;
+        width: 90%;
+    }
+    
+    .striped-text p {
+        text-align: center;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .striped-text li {
+        font-size: 1.2em;
+    }
+    
+    .striped-text h2 {
+        font-family: 'Bree Serif', sans-serif;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .white-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .white-cards p {
+        font-size: 1.2em;
+    }
+
+
+    #black-card {
+        background-color: #000;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        height: 50vh;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #gray-card {
+        background-color: #6d6e71;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        height: 50vh;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #purple-card {
+        background-color: #7f4f98;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        height: 50vh;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-content h2 {
+        font-family: 'Bree Serif', serif;
+    }
+
+    .footer-box {
+        padding: 20px;
+        margin: 0 40px 0 40px;
+    }
+
+    #resources a {
+        text-decoration: underline;
+        color: #414042;
+    }
+
+    #resources a:hover {
+        color: #b5b5b5;
+    }
+
+    #resources li {
+        list-style: none;
+        padding: 5px;
+    }
+
+    #hotlines {
+        margin-right: 30px;
+    }
+
+    #hotlines h3 {
+        margin: 0;
+    }
+
+    #hotlines p {
+        margin: 0 0 15px 0;
+    }
+
+    footer {
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+/* --------- TABLET ---------- */
+@media screen and (max-width: 1280px) and (min-width: 768) {
+    #mobile {
+        display: none;
+    }
+
+    .landing-img {
+        display: none;
+    }
+
+    .landing-text {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20%;
+        width: 50%;
+    }
+    
+    .landing h2 {
+        font-family: 'Bree Serif', serif;
+        font-size: 70px;
+        margin: 0;
+    }
+    
+    .landing h3 {
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .landing h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    #gray-stripe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .internal-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #414042;
+        margin: 60px;
+        padding: 15px;
+        width: 80%;
+    }
+
+    #white-stripe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .white-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #black-card {
+        background-color: #000;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #gray-card {
+        background-color: #6d6e71;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #purple-card {
+        background-color: #7f4f98;
+        padding: 30px;
+        border-radius: 10px;
+        width: 60%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+/* ---------- DESKTOP MENU ---------- */
+@media screen and (min-width: 768px) {
+
+    #mobile {
+        display: none;
+    }
+}
